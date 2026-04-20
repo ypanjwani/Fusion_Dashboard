@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fusion Dashboard</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <!-- App CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Fusion Dashboard</h1>
+    <span id="uploadStatus"></span>
+  </header>
+
+  <main>
+    <div id="map"></div>
+
+    <!-- Color legend -->
+    <div id="legend">
+      <div class="legend-item"><span class="legend-dot" style="background:#3b82f6;"></span> OSINT</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#f59e0b;"></span> HUMINT</div>
+      <div class="legend-item"><span class="legend-dot" style="background:#10b981;"></span> IMINT</div>
+    </div>
+
+    <!-- Drag-and-drop upload panel -->
+    <div id="dropPanel">
+      <div id="dropZone">
+        <p id="dropLabel">Drag &amp; drop a file here</p>
+        <p class="drop-sub">CSV · XLSX · JSON · JPG · JPEG</p>
+        <input type="file" id="fileInput" accept=".csv,.xlsx,.json,.jpg,.jpeg" />
+        <label for="fileInput" id="browseBtn">Browse</label>
+      </div>
+    </div>
+  </main>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- App JS -->
+  <script src="js/api.js"></script>
+  <script src="js/upload.js"></script>
+  <script src="js/map.js"></script>
+
+</body>
+</html>
