@@ -1,0 +1,359 @@
+[
+  {
+    "id": 1,
+    "lat": 28.61,
+    "lon": 77.2,
+    "type": "OSINT",
+    "description": "Social media activity spike detected in New Delhi."
+  },
+  {
+    "id": 2,
+    "lat": 19.07,
+    "lon": 72.87,
+    "type": "HUMINT",
+    "description": "Field agent report: unusual movement near Mumbai port."
+  },
+  {
+    "id": 3,
+    "lat": 13.08,
+    "lon": 80.27,
+    "type": "IMINT",
+    "description": "Satellite imagery shows new construction in Chennai."
+  },
+  {
+    "id": 4,
+    "lat": 22.57,
+    "lon": 88.36,
+    "type": "OSINT",
+    "description": "Dark web chatter linked to Kolkata coordinates."
+  },
+  {
+    "id": 5,
+    "lat": 17.38,
+    "lon": 78.48,
+    "type": "HUMINT",
+    "description": "Source confirms meeting at Hyderabad location."
+  },
+  {
+    "id": 6,
+    "lat": 28.61,
+    "lon": 77.2,
+    "type": "OSINT",
+    "description": "Social media activity spike detected in New Delhi."
+  },
+  {
+    "id": 7,
+    "lat": 19.07,
+    "lon": 72.87,
+    "type": "HUMINT",
+    "description": "Field agent report: unusual movement near Mumbai port."
+  },
+  {
+    "id": 8,
+    "lat": 13.08,
+    "lon": 80.27,
+    "type": "IMINT",
+    "description": "Satellite imagery shows new construction in Chennai."
+  },
+  {
+    "id": 9,
+    "lat": 22.57,
+    "lon": 88.36,
+    "type": "OSINT",
+    "description": "Dark web chatter linked to Kolkata coordinates."
+  },
+  {
+    "id": 10,
+    "lat": 17.38,
+    "lon": 78.48,
+    "type": "HUMINT",
+    "description": "Source confirms meeting at Hyderabad location."
+  },
+  {
+    "id": 11,
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "type": "OSINT",
+    "description": "Coordinated social media campaign traced to Bangalore tech hub."
+  },
+  {
+    "id": 12,
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "type": "HUMINT",
+    "description": "Asset confirms arms cache near Ahmedabad industrial zone."
+  },
+  {
+    "id": 13,
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "type": "IMINT",
+    "description": "Satellite pass reveals unauthorized airstrip near Jaipur."
+  },
+  {
+    "id": 14,
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "type": "OSINT",
+    "description": "Dark web forum activity linked to Nagpur coordinates."
+  },
+  {
+    "id": 15,
+    "lat": 11.0168,
+    "lon": 76.9558,
+    "type": "HUMINT",
+    "description": "Source reports suspicious cross-border movement near Coimbatore."
+  },
+  {
+    "id": 16,
+    "lat": 15.2993,
+    "lon": 74.124,
+    "type": "IMINT",
+    "description": "New vessel activity detected off Goa coastline."
+  },
+  {
+    "id": 17,
+    "lat": 25.5941,
+    "lon": 85.1376,
+    "type": "OSINT",
+    "description": "Encrypted communications intercepted near Patna relay tower."
+  },
+  {
+    "id": 18,
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "type": "OSINT",
+    "description": "Coordinated social media campaign traced to Bangalore tech hub."
+  },
+  {
+    "id": 19,
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "type": "HUMINT",
+    "description": "Asset confirms arms cache near Ahmedabad industrial zone."
+  },
+  {
+    "id": 20,
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "type": "IMINT",
+    "description": "Satellite pass reveals unauthorized airstrip near Jaipur."
+  },
+  {
+    "id": 21,
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "type": "OSINT",
+    "description": "Dark web forum activity linked to Nagpur coordinates."
+  },
+  {
+    "id": 22,
+    "lat": 11.0168,
+    "lon": 76.9558,
+    "type": "HUMINT",
+    "description": "Source reports suspicious cross-border movement near Coimbatore."
+  },
+  {
+    "id": 23,
+    "lat": 15.2993,
+    "lon": 74.124,
+    "type": "IMINT",
+    "description": "New vessel activity detected off Goa coastline."
+  },
+  {
+    "id": 24,
+    "lat": 25.5941,
+    "lon": 85.1376,
+    "type": "OSINT",
+    "description": "Encrypted communications intercepted near Patna relay tower."
+  },
+  {
+    "id": 25,
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "type": "OSINT",
+    "description": "Coordinated social media campaign traced to Bangalore tech hub."
+  },
+  {
+    "id": 26,
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "type": "HUMINT",
+    "description": "Asset confirms arms cache near Ahmedabad industrial zone."
+  },
+  {
+    "id": 27,
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "type": "IMINT",
+    "description": "Satellite pass reveals unauthorized airstrip near Jaipur."
+  },
+  {
+    "id": 28,
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "type": "OSINT",
+    "description": "Dark web forum activity linked to Nagpur coordinates."
+  },
+  {
+    "id": 29,
+    "lat": 11.0168,
+    "lon": 76.9558,
+    "type": "HUMINT",
+    "description": "Source reports suspicious cross-border movement near Coimbatore."
+  },
+  {
+    "id": 30,
+    "lat": 15.2993,
+    "lon": 74.124,
+    "type": "IMINT",
+    "description": "New vessel activity detected off Goa coastline."
+  },
+  {
+    "id": 31,
+    "lat": 25.5941,
+    "lon": 85.1376,
+    "type": "OSINT",
+    "description": "Encrypted communications intercepted near Patna relay tower."
+  },
+  {
+    "id": 32,
+    "lat": 28.61,
+    "lon": 77.2,
+    "type": "OSINT",
+    "description": "Social media activity spike detected in New Delhi."
+  },
+  {
+    "id": 33,
+    "lat": 19.07,
+    "lon": 72.87,
+    "type": "HUMINT",
+    "description": "Field agent report: unusual movement near Mumbai port."
+  },
+  {
+    "id": 34,
+    "lat": 13.08,
+    "lon": 80.27,
+    "type": "IMINT",
+    "description": "Satellite imagery shows new construction in Chennai."
+  },
+  {
+    "id": 35,
+    "lat": 22.57,
+    "lon": 88.36,
+    "type": "OSINT",
+    "description": "Dark web chatter linked to Kolkata coordinates."
+  },
+  {
+    "id": 36,
+    "lat": 17.38,
+    "lon": 78.48,
+    "type": "HUMINT",
+    "description": "Source confirms meeting at Hyderabad location."
+  },
+  {
+    "id": 37,
+    "lat": 28.61,
+    "lon": 77.2,
+    "type": "OSINT",
+    "description": "Social media spike in New Delhi."
+  },
+  {
+    "id": 38,
+    "lat": 19.07,
+    "lon": 72.87,
+    "type": "HUMINT",
+    "description": "Agent report near Mumbai port."
+  },
+  {
+    "id": 39,
+    "lat": 13.08,
+    "lon": 80.27,
+    "type": "IMINT",
+    "description": "New construction detected in Chennai."
+  },
+  {
+    "id": 40,
+    "lat": 22.57,
+    "lon": 88.36,
+    "type": "OSINT",
+    "description": "Dark web chatter near Kolkata."
+  },
+  {
+    "id": 41,
+    "lat": 17.38,
+    "lon": 78.48,
+    "type": "HUMINT",
+    "description": "Meeting confirmed in Hyderabad."
+  },
+  {
+    "id": 42,
+    "lat": 28.61,
+    "lon": 77.2,
+    "type": "OSINT",
+    "description": "Social media spike in New Delhi."
+  },
+  {
+    "id": 43,
+    "lat": 19.07,
+    "lon": 72.87,
+    "type": "HUMINT",
+    "description": "Agent report near Mumbai port."
+  },
+  {
+    "id": 44,
+    "lat": 13.08,
+    "lon": 80.27,
+    "type": "IMINT",
+    "description": "New construction detected in Chennai."
+  },
+  {
+    "id": 45,
+    "lat": 22.57,
+    "lon": 88.36,
+    "type": "OSINT",
+    "description": "Dark web chatter near Kolkata."
+  },
+  {
+    "id": 46,
+    "lat": 17.38,
+    "lon": 78.48,
+    "type": "HUMINT",
+    "description": "Meeting confirmed in Hyderabad."
+  },
+  {
+    "id": 47,
+    "lat": 28.61,
+    "lon": 77.2,
+    "type": "OSINT",
+    "description": "Social media spike in New Delhi."
+  },
+  {
+    "id": 48,
+    "lat": 19.07,
+    "lon": 72.87,
+    "type": "HUMINT",
+    "description": "Agent report near Mumbai port."
+  },
+  {
+    "id": 49,
+    "lat": 13.08,
+    "lon": 80.27,
+    "type": "IMINT",
+    "description": "New construction detected in Chennai."
+  },
+  {
+    "id": 50,
+    "lat": 22.57,
+    "lon": 88.36,
+    "type": "OSINT",
+    "description": "Dark web chatter near Kolkata."
+  },
+  {
+    "id": 51,
+    "lat": 17.38,
+    "lon": 78.48,
+    "type": "HUMINT",
+    "description": "Meeting confirmed in Hyderabad."
+  }
+]
