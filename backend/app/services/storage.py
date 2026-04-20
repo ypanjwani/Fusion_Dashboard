@@ -2,8 +2,9 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-UPLOAD_DIR = Path(__file__).resolve().parents[3] / "uploads"
-DATA_FILE  = Path(__file__).resolve().parents[3] / "data" / "sample_data.json"
+# parents[2] = backend/
+UPLOAD_DIR = Path(__file__).resolve().parents[2] / "uploads"
+DATA_FILE  = Path(__file__).resolve().parents[2] / "data" / "sample_data.json"
 
 
 def save_file(filename: str, contents: bytes) -> str:

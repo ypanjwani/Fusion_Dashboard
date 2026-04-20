@@ -4,7 +4,8 @@ from fastapi import APIRouter, HTTPException
 
 router = APIRouter()
 
-DATA_FILE = Path(__file__).resolve().parents[3] / "data" / "sample_data.json"
+# parents[2] = backend/
+DATA_FILE = Path(__file__).resolve().parents[2] / "data" / "sample_data.json"
 
 
 @router.get("/data")

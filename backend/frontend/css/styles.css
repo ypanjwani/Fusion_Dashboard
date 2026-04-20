@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  height: 48px;
+  background: #1a1a2e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  position: relative;
+  z-index: 1000;
+}
+
+#uploadStatus {
+  font-size: 0.8rem;
+  min-width: 160px;
+  text-align: right;
+}
+
+/* ── Drop panel (floating over map, bottom-right) ── */
+#dropPanel {
+  position: absolute;
+  bottom: 32px;
+  right: 24px;
+  z-index: 1000;
+  font-family: sans-serif;
+}
+
+#dropZone {
+  background: rgba(26, 26, 46, 0.92);
+  border: 2px dashed #e94560;
+  border-radius: 10px;
+  padding: 20px 24px;
+  text-align: center;
+  color: #ccc;
+  width: 220px;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+#dropZone.drag-over {
+  background: rgba(233, 69, 96, 0.2);
+  border-color: #fff;
+}
+
+#dropLabel {
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  color: #fff;
+  word-break: break-all;
+}
+
+.drop-sub {
+  font-size: 0.72rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+/* Hide the native file input; use the styled label instead */
+#fileInput {
+  display: none;
+}
+
+#browseBtn {
+  display: inline-block;
+  background: #e94560;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px 16px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#browseBtn:hover {
+  background: #c73652;
+}
+
+main {
+  height: calc(100vh - 48px);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Colored marker dot ── */
+.marker-dot {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.8);
+}
+
+/* ── Legend (bottom-left, above Leaflet attribution) ── */
+#legend {
+  position: absolute;
+  bottom: 40px;
+  left: 16px;
+  z-index: 1000;
+  background: rgba(26, 26, 46, 0.92);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: sans-serif;
+  font-size: 0.78rem;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 2px solid rgba(255,255,255,0.6);
+}

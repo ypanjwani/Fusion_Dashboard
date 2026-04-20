@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+uploads/
+data/sample_data.json
